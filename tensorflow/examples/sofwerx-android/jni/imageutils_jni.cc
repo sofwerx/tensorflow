@@ -24,7 +24,7 @@ limitations under the License.
 #include "tensorflow/examples/android/jni/yuv2rgb.h"
 
 #define IMAGEUTILS_METHOD(METHOD_NAME) \
-  Java_org.sofwerx.tensorflow.demo_env_ImageUtils_##METHOD_NAME  // NOLINT
+  Java_org_sofwerx_tensorflow_demo_env_ImageUtils_##METHOD_NAME  // NOLINT
 
 #ifdef __cplusplus
 extern "C" {
